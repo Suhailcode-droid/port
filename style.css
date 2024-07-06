@@ -382,25 +382,6 @@ display: block;
     background-color: #444;
 }
 
-@media only screen and (max-width: 767px) {
-  body {
-    font-size: 14px; /* Example of specific style for smaller screens */
-  }
-}
-
-/* For screens 768px and larger (tablets and desktops) */
-@media only screen and (min-width: 768px) {
-  body {
-    font-size: 16px; /* Example of specific style for larger screens */
-  }
-}
-
-
-
-
-
-
-
 @keyframes slideRight {
     0%{
         transform: translateX(-100px);
